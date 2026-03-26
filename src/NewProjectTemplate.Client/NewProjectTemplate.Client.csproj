@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <TrimmerRootDescriptor Include="TrimmerRootDescriptor.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Havit.Blazor.Components.Web.Bootstrap" Version="4.23.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.5" />
   </ItemGroup>
