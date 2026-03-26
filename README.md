@@ -5,7 +5,7 @@
 ## What's Included in This Template
 
 * Based on the standard *Blazor Web App* template from the ASP.NET Core Blazor team with the following settings:
-  * Framework: .NET 9.0
+  * Framework: .NET 10.0
   * Authentication type: None
   * Configure for HTTPS: Enabled
   * Interactive render mode: Auto (Server and WebAssembly)
