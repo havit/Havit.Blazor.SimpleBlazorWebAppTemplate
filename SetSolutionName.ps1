@@ -17,8 +17,7 @@ Foreach-Object {
 }
 
 Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'Havit.Blazor.SimpleBlazorWebAppTemplate.slnx')) -newName ($NewSolutionName + '.slnx')
-Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'NewProjectTemplate\NewProjectTemplate\NewProjectTemplate.csproj')) -newName ($NewSolutionName + '.csproj')
-Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'NewProjectTemplate\NewProjectTemplate.Client\NewProjectTemplate.Client.csproj')) -newName ($NewSolutionName + '.Client.csproj')
-Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'NewProjectTemplate\NewProjectTemplate.Client')) -newName ($NewSolutionName + '.Client')
-Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'NewProjectTemplate\NewProjectTemplate')) -newName ($NewSolutionName)
-Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'NewProjectTemplate')) -newName ($NewSolutionName)
+Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'src\NewProjectTemplate\NewProjectTemplate.csproj')) -newName ($NewSolutionName + '.csproj')
+Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'src\NewProjectTemplate.Client\NewProjectTemplate.Client.csproj')) -newName ($NewSolutionName + '.Client.csproj')
+Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'src\NewProjectTemplate.Client')) -newName ($NewSolutionName + '.Client')
+Rename-Item -path ([System.IO.Path]::Combine($SolutionFolder, 'src\NewProjectTemplate')) -newName ($NewSolutionName)

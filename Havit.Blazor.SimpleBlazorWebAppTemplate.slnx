@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="NewProjectTemplate/NewProjectTemplate.Client/NewProjectTemplate.Client.csproj" />
-  <Project Path="NewProjectTemplate/NewProjectTemplate/NewProjectTemplate.csproj" />
+  <Project Path="src/NewProjectTemplate.Client/NewProjectTemplate.Client.csproj" />
+  <Project Path="src/NewProjectTemplate/NewProjectTemplate.csproj" />
 </Solution>
